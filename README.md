@@ -141,10 +141,10 @@ gantt
         Cola primeiro tangram: Co1,  after C31, 3d  
         Cola segundo tangram:  Co2,  after Co1, 3d  
         Cola terceiro tangram: Co3,  after Co2, 3d
-        Cola quarto tangram:   Co4,  after Co3 C32, 3d  
+        Cola quarto tangram:   Co4,  after C32, 3d  
         Cola quinto tangram:   Co5,  after Co4  3d  
         Cola sexto tangram:    Co6,  after Co5, 3d
-        Cola setimo tangram:   Co7,  after Co6 C33, 3d  
+        Cola setimo tangram:   Co7,  after C33, 3d  
         Cola oitavo tangram:   Co8,  after Co7, 3d  
         Cola nono tangram:     Co9,  after Co8, 3d  
         Cola decimo tangram:   Co10, after Co9, 3d
