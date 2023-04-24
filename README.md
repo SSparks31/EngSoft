@@ -111,41 +111,47 @@ flowchart TD
 ```mermaid
 gantt
     title Tangram
-    dateFormat  YYYY-MM-DD
+    
+    dateFormat HH:mm
+    axisFormat %H:%M
+    
+    Start: milestone, start, 00:00, 0
+    Sprint1: milestone, sprint1, 00:40, 0
+    End: milestone, end, 01:20, 0
 
     section Aoki
-        Dobra papel da cor 1: D1, 0000-01-01, 2d
-        Dobra paple da cor 2: D2, after D1  , 2d
-        Dobra paple da cor 3: D3, after D2  , 2d
+        Dobra papel da cor 1: D1, after start, 2m
+        Dobra paple da cor 2: D2, after D1  , 2m
+        Dobra paple da cor 3: D3, after D2  , 2m
 
     section Kaio
-        Desenha tangram de cor 1: De1, after D1, 2d
-        Desenha tangram de cor 3: De3, after De1 D3, 2d
+        Desenha tangram de cor 1: De1, after D1, 2m
+        Desenha tangram de cor 3: De3, after De1 D3, 2m
 
     section Kikuti
-        Desenha tangram de cor 2: De2, after D2, 3d
+        Desenha tangram de cor 2: De2, after D2, 3m
     
     section Shinji
-        Corta primeira parte do papel de cor 1: C11, after De1, 4d
-        Corta primeira parte do papel de cor 2: C21, after De2 C11, 4d
-        Corta primeira parte do papel de cor 3: C31, after De3 C21, 4d
-        Corta segunda parte do papel de cor 1 : C12, after De1 C31, 4d
-        Corta segunda parte do papel de cor 2 : C22, after De2 C12, 4d
-        Corta segunda parte do papel de cor 3 : C32, after De3 C22, 4d
-        Corta terceira parte do papel de cor 1: C13, after De1 C32, 4d
-        Corta terceira parte do papel de cor 2: C23, after De2 C13, 4d
-        Corta terceira parte do papel de cor 3: C33, after De3 C23, 4d
-        Corta quarta parte do papel de cor 1  : C14, after De1 C33, 4d
+        Corta primeira parte do papel de cor 1: C11, after De1, 4m
+        Corta primeira parte do papel de cor 2: C21, after De2 C11, 4m
+        Corta primeira parte do papel de cor 3: C31, after De3 C21, 4m
+        Corta segunda parte do papel de cor 1 : C12, after De1 C31, 4m
+        Corta segunda parte do papel de cor 2 : C22, after De2 C12, 4m
+        Corta segunda parte do papel de cor 3 : C32, after De3 C22, 4m
+        Corta terceira parte do papel de cor 1: C13, after De1 C32, 4m
+        Corta terceira parte do papel de cor 2: C23, after De2 C13, 4m
+        Corta terceira parte do papel de cor 3: C33, after De3 C23, 4m
+        Corta quarta parte do papel de cor 1  : C14, after De1 C33, 4m
         
     section Dênis
-        Cola primeiro tangram: Co1,  after C31, 3d  
-        Cola segundo tangram:  Co2,  after Co1, 3d  
-        Cola terceiro tangram: Co3,  after Co2, 3d
-        Cola quarto tangram:   Co4,  after Co3 C32, 3d  
-        Cola quinto tangram:   Co5,  after Co4,  3d  
-        Cola sexto tangram:    Co6,  after Co5, 3d
-        Cola setimo tangram:   Co7,  after Co6 C33, 3d  
-        Cola oitavo tangram:   Co8,  after Co7, 3d  
-        Cola nono tangram:     Co9,  after Co8, 3d  
-        Cola decimo tangram:   Co10, after Co9, 3d
+        Cola primeiro tangram: Co1,  after C31, 3m  
+        Cola segundo tangram:  Co2,  after Co1, 3m  
+        Cola terceiro tangram: Co3,  after Co2, 3m
+        Cola quarto tangram:   Co4,  after Co3 C32, 3m  
+        Cola quinto tangram:   Co5,  after Co4,  3m  
+        Cola sexto tangram:    Co6,  after Co5, 3m
+        Cola setimo tangram:   Co7,  after Co6 C33, 3m  
+        Cola oitavo tangram:   Co8,  after Co7, 3m  
+        Cola nono tangram:     Co9,  after Co8, 3m  
+        Cola decimo tangram:   Co10, after Co9, 3m
 ```
