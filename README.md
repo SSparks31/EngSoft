@@ -1,7 +1,7 @@
 # EngSoft
 
 ## Pert
-```
+```mermaid
 flowchart TD
     ini((inicio))
     D1((id:D1\n Dobra papel\n cor 1\n Cedo: 2))
