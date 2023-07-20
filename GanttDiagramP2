@@ -1,8 +1,6 @@
 ```mermaid
-
 gantt
-
-    title Tasks
+    title Tarefas
     dateFormat  MM-DD 
     todayMarker off
 
@@ -23,5 +21,4 @@ gantt
         Criar diagramas de sequência - Gregório Rodrigues: diagramaSequenciaGregorio, 07-10, 6d
         Criar diagramas de classes: diagramaClasses, 07-15, 4d
         Criar diagramas de banco de dados: diagramaBancoDeDados, 07-16, 3d
-
 ```
