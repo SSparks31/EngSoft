@@ -10,8 +10,8 @@ classDiagram
     Evento "*" *-- "1" Entidade
     AvaliacaoLocal <|..  Bebedouro
     AvaliacaoLocal <|.. Banheiro
-    Bebedouro "1" *-- "1" BebedouroNota
-    Banheiro "1" *-- "1" BanheiroNota
+    Bebedouro "1" *-- "*" BebedouroNota
+    Banheiro "1" *-- "*" BanheiroNota
 
     <<Abstract>> Usuario
     <<Abstract>> AvaliacaoLocal
@@ -83,6 +83,8 @@ classDiagram
     }
 
     class BebedouroNota{
+      -guid GUID
+      -int Id
       -int temperatura
       -int gosto
       -int fluxoDeAgua
@@ -94,6 +96,8 @@ classDiagram
     }
 
     class BanheiroNota{
+      -guid GUID
+      -int Id
       -int limpeza
       -int tempoDeEspera
       -int conforto
