@@ -56,6 +56,10 @@ classDiagram
       +getURLImagem()
     }
 
+    class Banco{
+       +fazCoisasComOBanco()
+    }
+
     class Tag{
       -guid GUID
       -int Id
